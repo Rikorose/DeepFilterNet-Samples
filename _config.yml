@@ -30,7 +30,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: "DE"
 
 include:
   - _pages
@@ -73,6 +73,7 @@ head_scripts:
   - /assets/js/plugins/wavesurfer.js
   - /assets/js/plugins/wavesurfer.timeline.min.js
   - /assets/js/plugins/wavesurfer.spectrogram.min.js
+  - assets/js/mymain.js
 
 footer:
   links:
