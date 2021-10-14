@@ -15,7 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 locale: "en-US"
 title: DeepFilterNet Samples
-description: "Audio Samples accompanying the paper 'DeepFilterNet: A Low Complexity Speech Enhancement Framework for Full-Band Audio based on Deep Filtering.'"
+subtitle: "DeepFilterNet: A Low Complexity Speech Enhancement Framework for Full-Band Audio based on Deep Filtering"
+description: "Audio Samples accompanying the paper 'DeepFilterNet: A Low Complexity Speech Enhancement Framework for Full-Band Audio based on Deep Filtering'"
 github_username: Rikorose
 minimal_mistakes_skin: default
 name: "Hendrik Schröter"
