@@ -69,6 +69,11 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/Rikorose/DeepFilterNet"
 
+head_scripts:
+  - /assets/js/plugins/wavesurfer.js
+  - /assets/js/plugins/wavesurfer.timeline.min.js
+  - /assets/js/plugins/wavesurfer.spectrogram.min.js
+
 footer:
   links:
     - label: "GitHub"
