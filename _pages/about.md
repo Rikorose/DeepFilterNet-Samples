@@ -2,7 +2,6 @@
 permalink: /about/
 title: "About"
 author_profile: true
-wide: true
 ---
 
 This website contains audio samples from the voice bank / DEMAND testset enhanced with DeepFilterNet.
