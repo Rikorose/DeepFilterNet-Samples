@@ -68,7 +68,7 @@ author:
       url: "https://lme.tf.fau.de/person/schroeter/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/Rikorose/DeepFilterNet"
+      url: "https://github.com/Rikorose"
 
 head_scripts:
   - /assets/js/plugins/wavesurfer.js
