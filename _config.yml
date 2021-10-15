@@ -22,7 +22,6 @@ minimal_mistakes_skin: default
 name: "Hendrik Schröter"
 repository: "Rikorose/DeepFilterNet"
 url: "https://Rikorose.github.io/DeepFilterNet-Samples"
-baseurl: ""
 search: false
 
 # Build settings
