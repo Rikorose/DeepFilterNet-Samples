@@ -4,10 +4,22 @@ title: "About"
 author_profile: true
 ---
 
-This website contains audio samples from the voice bank / DEMAND testset enhanced with DeepFilterNet.
+This website contains audio samples from the voice bank / DEMAND test set enhanced with DeepFilterNet.
 
 The corresponding DeepFilterNet paper and code are available at: 
 [paper](https://arxiv.org/pdf/2110.05588.pdf), [code](https://github.com/Rikorose/DeepFilterNet)
+
+Abbreviations used in this website:
+
+* DF: Deep Filtering
+* CRM: Complex ratio mask
+* ERB: Equivalent rectangular bandwidth which models human frequency perception.
+* STFT: Short-time Fourier Transform
+* stage 1: Speech enhancement stage 1 using predicted ERB gains modeling the spectral envelope.
+* stage 2: Refinement stage using deep filtering to enhance the periodic speech components. This reduces the remaining 'roughness' in the speech signal by removing noise between the speech harmonics.
+
+The final DeepFilterNet uses stage 1 for enhancing the spectral envelope and stage 2 using Deep Filtering (DF) for enhancing the periodicity.
+All audio samples are derived using a STFT window size of 20ms and a hop size of 10ms.
 
 ### Abstract
 
